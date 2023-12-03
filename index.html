@@ -86,13 +86,12 @@
             This is a fake payment form. It is not connected to any payment gateway and its purpose is to quickly get
             your payment details to copy into an app that does not support auto fill.
         </p>
-        <!-- Payment form with auto complete -->
-        <!-- On sub mit: prevent submit -->
         <form action="" method="post" onsubmit="event.preventDefault()">
             <input class="col-span-2" type="text" name="cardNumber" id="cardNumber" placeholder="Card Number"
                 autocomplete="cc-number" />
             <input type="text" name="cardExpiry" id="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" />
             <input type="text" name="cardCVC" id="cardCVC" placeholder="CVC" autocomplete="cc-csc" />
+        </form>
     </main>
 </body>
 
